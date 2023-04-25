@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Poppins:ital@1&display=swap');
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(6, 192, 6)
+}
+
+body {
+    background: rgba(235, 244, 245, 0.671);
+    color: #0f141e;
+
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    color: rgba(0, 0, 0, 0.993);
+    font-size: 36px;
+    font-family: 'Castoro Titling', cursive;
+}
+
+.avatar {
+    width: 300px;
+    border-radius: 25px;
+    box-shadow: 8px 8px 25px rgba(0, 0, 0, 25);
+    margin-bottom: 30px;
+}
+
+.info p {
+    color: #86898f;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.info {
+    display: flex;
+    margin: 20px;
+}
+
+.info-text {
+    margin-left: 40px;
+}
+
+@media (max-width:700px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
+
+.me {
+    margin-left: 40px;
+}
+
+.me h4 {
+    margin-bottom: 10px;
+}
+
+.conteiner {
+    max-width: 750px;
+    margin: auto;
+}
+
+.margin {
+    margin: 50px;
+}
+
+.bg-yellow {
+    background: #fff9dc;
+}
+
+.bg-green {
+    background: #e5ffe7;
+}
+
+.bg-red {
+    background: #ffe5e5;
+}
+
+.card {
+    padding: 15px 20px;
+
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.card h2 {
+    margin-bottom: 15px;
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.list li {
+    color: #86898f;
+    margin-bottom: 10px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+table td:nth-child(1),
+table td:nth-child(2),
+table td:nth-child(3) {
+    color: #86898f
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14;
+
+}
+
+.form-group input,
+.form-group textarea {
+
+    width: 35%;
+    box-sizing: border-box;
+    border: none;
+    color: #0f141e;
+    padding: 10px 0 10px;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    font-family: inherit;
+    display: block;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row>.form-group {
+    width: 50%;
+    margin-right: 20px;
+
+}
+
+
+.btn {
+    background-color: #01ec3c;
+    padding: 15px 20px;
+    color: #ffffff;
+    border: 0;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
